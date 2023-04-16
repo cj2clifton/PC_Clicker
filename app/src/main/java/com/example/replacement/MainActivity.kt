@@ -19,6 +19,7 @@ class MainActivity : ComponentActivity() {
             ReplacementTheme {
                 Surface(Modifier.fillMaxSize(), color = MaterialTheme.colors.background) {
                     Text("test", color = MaterialTheme.colors.primary)
+                    
                 }
                 }
             }
