@@ -7,14 +7,14 @@ import androidx.compose.material.lightColors
 import androidx.compose.runtime.Composable
 
 private val DarkColorPalette = darkColors(
-        primary = red564,
+        primary = red564, //This sets the background color of the button
         primaryVariant = red564,
         secondary = red564,
     background = black432
 )
 
 private val LightColorPalette = lightColors(
-        primary = red564,
+        primary = black432,
         primaryVariant = red564,
         secondary = red564,
 
