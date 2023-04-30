@@ -5,21 +5,22 @@ import androidx.compose.material.MaterialTheme
 import androidx.compose.material.darkColors
 import androidx.compose.material.lightColors
 import androidx.compose.runtime.Composable
+import androidx.compose.ui.graphics.Color
 
 private val DarkColorPalette = darkColors(
         primary = red564, //This sets the background color of the button
         primaryVariant = red564,
         secondary = red564,
-    background = black432
+    background = Color.Black
 )
 
 private val LightColorPalette = lightColors(
-        primary = black432,
+        primary = red564,
         primaryVariant = red564,
         secondary = red564,
 
 
-    background = black432
+    background = Color.Black
     /* Other default colors to override
     surface = Color.White,
     onPrimary = Color.White,
